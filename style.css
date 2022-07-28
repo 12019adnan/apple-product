@@ -1,0 +1,361 @@
+body{
+    background-color: #f2f2f2;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.nav-alin{
+    display: flex;
+    
+}
+.nav-alin li{
+    list-style: none;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    color: rgb(42, 55, 66);
+    font-weight: bolder;
+    align-items: center;
+
+}
+.display-fixed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color:rgba(0, 0, 0, 0.144); */
+}
+.set-position{
+    background-color:rgba(223, 21, 223, 0.144);
+}
+/* .display-fixed .navigation-header-title h1{
+
+
+} */
+
+/* <<<<<<<<<<<<<<<<<<<<<silder-images>>>>>>>>>>>>>>>>>>>>>> */
+.slider-first-image{
+    height:         700px;
+    min-height:     400px;
+    line-height:    400px;
+}
+.slider-second-image{
+    height:         800px;
+    max-height: 700px;
+    line-height:    400px;
+}
+.slider-third-image{
+    max-height: 700px;
+}
+
+.carousel-first-div{
+    padding-bottom: 40px;
+    font-weight:bolder ;
+    background: -webkit-linear-gradient(#eee, rgb(4, 44, 7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.carousel-second-div{
+    padding-bottom: 40px;
+    font-weight:bolder ;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.452));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+ .carousel-third-div{
+    padding-bottom: 40px;
+    font-weight:bolder;
+    color: rgb(20, 19, 31);
+} 
+
+
+
+/* .iphone-13-detail */
+.iphone-13-full{
+    display: flex;
+
+
+}
+.iphone-13-specification img{
+    width: 100%; 
+    height: 53.5vh;
+    position:relative;
+}
+.oh-so-pro{
+    font-size: 80px;
+}
+/* .iphone-13-detail > span+p {
+    font-weight:500;
+    font-size: 22px;
+    width: 730px;
+} */
+.iphone-13-detail-texts{
+    font-weight: 500;
+    font-size: 22px;
+
+}
+.iphone-13-price{
+    font-size: 28px;
+}
+.iphone-13-detail{
+    text-align: center;
+
+}
+.iphone-13-button-buy{
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: linear-gradient(to right, #ab659b, #edd7de);
+    border-radius: 20px;
+    color: #1a1422;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+}
+/* +++++++++++++++++++ */
+.apple-watch img{
+    width: 100%; 
+    height: 53.5vh;
+
+}
+.watch-container{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.watch-container-texts{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 10%;
+
+}
+.watch-container-texts {
+    padding-bottom: 25px;
+}
+
+
+/* <<<<<<<<<<<<founder pranta section>>>>>>>>>>>>>>>>>> */
+.ipad-section{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.ipad img{
+    width: 50%; 
+    height: 53.5vh;
+}
+.linear-border-div{
+    border-image: linear-gradient( to bottom, #4c4c4e, #83839e, #678ea0, #b9b3a8) 1 100%;
+    border-style:  solid;
+    max-width: 500px;
+    padding: 10px;
+    border-width: 5px;
+    height: 425px;
+    text-align: center;
+    
+}
+ .linear-border-div h1{
+    font-size: 50px;
+} 
+
+.linear-border-div p{ 
+    font-size: 18.3px;
+    font-weight: bolder;
+}
+.ipad-watch{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.ipad-watch a{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right,#4c4c4e, #83839e, #678ea0, #b9b3a8 ) ;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight:bolder ;
+}
+/* _____________ apple-watch___________________ */
+.air-pod-section{
+    padding-bottom: 50px;
+    background-color: black;
+
+}
+.air-pod img{
+    width: 49%;
+    height: 50vh;
+}
+.air-pod-algin-set{
+    display: flex;
+    color: #e8ebee;
+
+}
+.air-pod-texts{
+    padding-top: 10%;
+    padding-left: 12%;
+}
+.airpods-header-font{
+    font-size: 75px;
+}
+.airpod-button{
+    font-size: 25px;
+    font-weight: bolder;
+    background: linear-gradient(black, white);
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.learn-more{
+    font-size: 25px;
+    padding-left: 20px;
+}
+/* _____________________________________ */ 
+/* <<<<<<<<<<<<<<<<<<<<<<< mac air >>>>>>>>>>>>>>> */
+.mac-book-air-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.mac-air-image img{
+    
+    /* padding-left: 50%; */
+    height: 600px;
+    max-width: 700px;
+    min-width: 50px;
+}
+.learn-more-div{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.buy-learn-more-div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+
+/* ______________ */
+.macBook-pro-13-backgound-image{
+    background:url(./images/mac-book1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.air-mac-texts{
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 20px;   
+
+}
+.macbook-pro-buy-button{
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: linear-gradient(to right, #34243f, #1a1422);
+    color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css  */
+@media only screen and (max-width: 895px){
+    body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navigation-header-title h1{
+       text-align: center;
+       padding-left: 50px;
+    }
+    .set-postion .display-fixed nav{
+        display: none;
+        /* background-color:white; */
+    }
+    .first-image img{
+        width: 290px;
+        height: 500px;
+    }
+    .second-image  img{
+        width: 290px;
+        height: 500px;
+    }
+    .third-image img{
+        width: 290px;
+        height: 500px;
+    }
+
+    .apple-watch img{
+        width: 100%;
+        height: 250px;
+   }
+   .watch-container h1{
+    padding-top: 25px;
+   }
+   /* iphone */
+   .iphone-13-specification  img{
+    width: 90%;
+    height: 30vh;
+   }
+
+   /* ipad */
+   .ipad img{
+    width: 100%;
+    height: 300px;
+    
+}
+    .ipad-watch{
+        padding-top: 5px;
+    }
+    /* macbook- air */
+
+    .mac-book-air-image img{
+        width: 100%;
+        height:50vh;
+        
+
+    }
+    .mac-full-container-padding{
+        padding-top: 260px;
+        padding-bottom: 50px;
+    }
+    .mac-book-air-image img{
+        padding-top: 30px;
+    } 
+    
+    .air-pod img{
+        width: 360px;
+        height: 300;
+    }
+    .air-pod-algin-set{
+        display: grid;
+        
+    }
+}

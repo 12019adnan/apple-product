@@ -32,10 +32,6 @@ body{
 .set-position{
     background-color:rgba(223, 21, 223, 0.144);
 }
-/* .display-fixed .navigation-header-title h1{
-
-
-} */
 
 /* <<<<<<<<<<<<<<<<<<<<<silder-images>>>>>>>>>>>>>>>>>>>>>> */
 .slider-first-image{
@@ -91,11 +87,7 @@ body{
 .oh-so-pro{
     font-size: 80px;
 }
-/* .iphone-13-detail > span+p {
-    font-weight:500;
-    font-size: 22px;
-    width: 730px;
-} */
+
 .iphone-13-detail-texts{
     font-weight: 500;
     font-size: 22px;
